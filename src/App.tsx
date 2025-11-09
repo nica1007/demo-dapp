@@ -1,7 +1,7 @@
 import { createNetworkConfig, SuiClientProvider, WalletProvider, ConnectButton } from '@mysten/dapp-kit';
 import { getFullnodeUrl } from '@mysten/sui/client';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import Minter from './components/Mint';
+import Menu from './components/Menu';
 import './App.css';
 import { StrictMode } from 'react';
 
@@ -24,7 +24,7 @@ function App() {
                     <ConnectButton />
                   </header>
                   <main className='app-main'>
-                    <Minter />
+                    <Menu />
                   </main>
                 </WalletProvider>
             </SuiClientProvider>
