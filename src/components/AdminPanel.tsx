@@ -7,7 +7,7 @@ import {
 import { Transaction } from "@mysten/sui/transactions";
 
 // Use your package constants
-export const CONTRACT_PACKAGE_ID = "0xb2c72f01e9297be934c29dcbf62727903532312397d3aa822c69e221d15cbeb5";
+export const CONTRACT_PACKAGE_ID = "0x925f4e2ee2b1e17221d3397fe67c1deeee0b9e770040e6aab22dcd0c1d11ae70";
 export const CONTRACT_MODULE_NAME = "nft_marketplace";
 export const CONTRACT_MODULE_METHOD = {
   mint: "mint_to_sender",
@@ -16,7 +16,7 @@ export const CONTRACT_MODULE_METHOD = {
   cancel: "cancel_listing",
   withdrawMarket: "withdraw_marketplace_fees", // Fixed casing to match your contract
 };
-export const MARKET_OBJECT_ID = "0x7544425cb5b8cb54526d0705e8e13decc22863ea11cc069263bf3afe0b58bc4d"; // Your marketplace object ID
+export const MARKET_OBJECT_ID = "0x6b58cc261b74c9c5dd78fde174b4b2b53fcfe06848d9f5cd6be0ea9084047cf4"; // Your marketplace object ID
 
 const MarketplaceFees: React.FC = () => {
   const suiClient = useSuiClient();

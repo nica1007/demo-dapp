@@ -15,8 +15,8 @@ interface Listing {
 }
 
 const ITEMS_PER_PAGE = 6;
-const MARKETPLACE_PACKAGE_ID = "0xb2c72f01e9297be934c29dcbf62727903532312397d3aa822c69e221d15cbeb5";
-const MARKETPLACE_OBJECT_ID = "0x7544425cb5b8cb54526d0705e8e13decc22863ea11cc069263bf3afe0b58bc4d";
+const MARKETPLACE_PACKAGE_ID = "0x925f4e2ee2b1e17221d3397fe67c1deeee0b9e770040e6aab22dcd0c1d11ae70";
+const MARKETPLACE_OBJECT_ID = "0x6b58cc261b74c9c5dd78fde174b4b2b53fcfe06848d9f5cd6be0ea9084047cf4";
 
 // Lock mechanism to prevent multiple purchases
 const purchaseLocks = new Map<string, boolean>();

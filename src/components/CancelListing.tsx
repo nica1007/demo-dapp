@@ -6,7 +6,7 @@ import {
 } from "@mysten/dapp-kit";
 import { Transaction } from "@mysten/sui/transactions";
 
-const CONTRACT_PACKAGE_ID = "0xb2c72f01e9297be934c29dcbf62727903532312397d3aa822c69e221d15cbeb5";
+const CONTRACT_PACKAGE_ID = "0x925f4e2ee2b1e17221d3397fe67c1deeee0b9e770040e6aab22dcd0c1d11ae70";
 const CONTRACT_MODULE_NAME = "nft_marketplace";
 
 const CancelListing = () => {
